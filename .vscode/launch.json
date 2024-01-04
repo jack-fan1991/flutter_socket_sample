@@ -1,0 +1,93 @@
+{
+    // 使用 IntelliSense 以得知可用的屬性。
+    // 暫留以檢視現有屬性的描述。
+    // 如需詳細資訊，請瀏覽: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+
+        {
+            "name": "run_tv",
+            "request": "launch",
+            "type": "dart",
+            "args": [
+
+            ]
+        },
+        {
+            "name": "owlmarket_mobile(dev mode)",
+            "request": "launch",
+            "type": "dart",
+            "args": [
+                "--flavor",
+                "dev"
+            ]
+        },
+        {
+            "name": "owlmarket_mobile (profile mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile",
+            "args": [
+                "--flavor",
+                "prod"
+            ]
+        },
+        {
+            "name": "owlmarket_mobile (release mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release",
+            "args": [
+                "--release",
+                "--flavor",
+                "prod"
+            ]
+        },
+        {
+            "name": "owlmarket_mobile (release prod  mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release",
+            "args": [
+                "--release",
+                "--flavor",
+                "prod"
+            ]
+        },
+        {
+            "name": "owlmarket_mobile (release dev mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release",
+            "args": [
+                "--release",
+                "--flavor",
+                "dev"
+            ]
+        },
+        {
+            "name": "owlmarket_mobile (debug dev obfuscate)",
+            "request": "launch",
+            "type": "dart",
+            "args": [
+                "--release",
+                "--obfuscate",
+                "--flavor",
+                "dev"
+            ]
+        },
+        {
+            "name": "App test on android emulator-5554",
+            "request": "launch" ,
+            "type": "dart",
+            "program": "./integration_test/",
+            "args": [
+                "--flavor",
+                "prod",
+                "-d",
+                "emulator-5554"
+            ]
+        }
+    ] 
+
+}
